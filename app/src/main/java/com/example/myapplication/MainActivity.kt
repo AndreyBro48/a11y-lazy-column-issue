@@ -53,7 +53,9 @@ class MainActivity : ComponentActivity() {
                                 Text(
                                     text = "Some text $it",
                                     color = MaterialTheme.colorScheme.onBackground,
-                                    modifier = Modifier.height(100.dp)
+                                    modifier = Modifier
+                                        .padding(horizontal = 16.dp)
+                                        .height(100.dp)
                                 )
                             }
                         }
